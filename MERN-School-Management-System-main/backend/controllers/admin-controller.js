@@ -7,7 +7,7 @@ const Subject = require('../models/subjectSchema.js');
 const Notice = require('../models/noticeSchema.js');
 const Complain = require('../models/complainSchema.js');
 
-// const adminRegister = async (req, res) => {
+// const adminRegister = async (req,  res) => {
 //     try {
 //         const salt = await bcrypt.genSalt(10);
 //         const hashedPass = await bcrypt.hash(req.body.password, salt);
